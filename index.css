@@ -94,6 +94,10 @@ nav>h1{
     line-height: 56px;
     margin-left: 7%;
 }
+.herocontent>button>a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .herocontent>h1{
     font-size: 44px;
     font-family: var(--font-family-primary);
@@ -356,6 +360,10 @@ nav>h1{
     border:2px solid #458FF6;
     width: 10%;
 }
+.subsec12butt>button>a{
+    text-decoration: none;
+    color: #458FF6;
+}
 .subsec12butt>button:hover{
     background-color: #FFFFFF;
     color: #000000;
@@ -416,6 +424,10 @@ nav>h1{
     background-color: #E5E5E5;
     color: #458FF6;
     border: 1px solid #458FF6; 
+}
+.sec2content>button>a{
+    text-decoration: none;
+    color: #458FF6;
 }
 .sec2content>button:hover{
     background-color: #FFFFFF;
@@ -890,10 +902,273 @@ nav>h1{
     font-weight: 300;
     line-height: 38px;
 }
+                                            /* RESPONSIVE DESIGN */
 
-                                        /* RESPONSIVE DESIGN */
+@media (max-width: 1024px){
+    .subsec12butt>button{
+        width: 150px;
+        /* line-height: 20px; */
+        height: 40px;
+    }
+    .undertext>h3{
+        position: relative;
+        right: 140px;
+    }
+    .undertext>hr{
+        position: relative;
+        right: 140px;
+    }
+    .lastsec036>h5{
+        padding-left: 20%;
+    }
+}
+ @media (max-width: 768px){
+    .logocont{
+        width: 60px;
+        margin-top: 3%;
+    }
+    .logocont>h2{
+        margin-left: 6%;
+    }
+    nav>h1{
+        margin-top: 1.5%;
+        
+    }
+    .menu>label{
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked + .clicklinks{ 
+        display: block;
+    }
+    .clicklinks{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .clicklinks>a{
+        display: block;
+        border-bottom: 1px solid #1F1534 ;
+        margin: 0;
+        line-height: 70px;
+    }
+    .heroelement{
+        margin-top: 15%;
+        position: relative;
+        top: 50px;
+    }
+    .herocontent>h1{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .herocontent>p{
+        font-size: 18px;
+        position: relative;
+        top: 7px;
+        line-height: 25px;
+    }
+    .heroimg{ 
+        width: 70%; 
+        position: relative;
+        top: 20px;
+    }
+    .herocontent>button{
+        width: 120px;
+        font-size: 15px;
+        height: 30px;
+        position: relative;
+    }
+    .search>img{
+        position: relative;
+        left: 10px;
+    }
+    .search>h4{ 
+        font-size: 20px;
+        padding-top: 8%; 
+    }
+    .search>p{ 
+        font-size: 16px;
+    }
+    .online>img{
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+    .online>h4{
+        line-height: 30px;
+        padding-top: 19%;
+        font-size: 20px;
+        padding-bottom: 8%;
+    }
+    .online>p{
+        font-size: 16px;
+    }
+    .online>p>br{
+        display: none;
+    }
+    .consult>img{
+        position: relative;
+        top: 9px;
+        left: 10px;
+    }
+    .consult>h4{
+        padding-top: 10%;
+        font-size: 20px;
+    }
+    .consult>p{
+        font-size: 16px;
+    }
+    .data>img{
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+    .data>h4{
+        padding-top: 10%;
+        font-size: 20px;
+    }
+    .data>p{
+        font-size: 16px;
+    }
+    .gencare>img{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .gencare>h4{
+        padding-top: 18%;
+        font-size: 20px;
+    }
+    .gencare>p{
+        font-size: 16px;
+    }
+    .trak>img{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .trak>h4{
+        padding-top: 13%;
+        font-size: 20px;
+    }
+    .trak>p{
+        font-size: 16px;
+    }
+    .subsec12butt>button{ 
+        width: 100px;
+        font-size: 14px;
+        height: 40px;
+        margin-top: 7%;
+    }
+    .sec2imgcont{ 
+        width: 130%;
+        position: relative;
+        bottom: 77px;
+    }
+    .sec2content{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+    .sec2content>h3{
+        font-size: 30px;
+    }
+    .sec2content>hr{
+        margin: 0 auto;
+    }
+    .sec2content>p{
+        font-size: 17px;
+        margin-top: 3%;
+    }
+    .subsec21{
+        position: relative;
+        bottom: 140px;
+    }
+    .section3{ 
+        position: relative;
+        text-align: center;
+    }
+    .section3>div{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .subsec31{
+        position: relative;
+        bottom: 130px;
+    }
+    .subsec31>h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .subsec31>hr{
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+    .subsec31>p{
+        font-size: 17px;
+    }
+    .subsec32{
+        position: relative;
+        bottom: 190px;
+        width: 130%;
+    }
+    .presec4{ 
+        display: none;
+    }
+    .subsec041{
+        display: none;
+    } 
+    .subsec042{
+        position: relative;
+        bottom: 1300px;
+    }
+    .subsec042>h2{
+        font-size: 30px;
+    } 
+    .subsec05{ 
+        position: relative;
+        bottom: 300px;
+        height: 90vh;
+    }
+    .subsec115{
+        position: relative;
+        bottom: 320px;
+    }
+    .subsec115>button{
+        width: 100px;
+    }
+    .prelastsec{ 
+        position: relative;
+        bottom: 350px;
+    }
+    .lastsec{ 
+        position: relative;
+        bottom: 348px;
+    }
+    body{
+        height: 1200px;
+    }
+}
 
 @media only screen and (max-width: 425px) {
+    .logocont{
+        width: 60px;
+        margin-top: 5%;
+    }
+    body{
+        height: 1200px;
+    }
+    header{
+        display: block;
+    }
+    nav>h1{
+        margin-top: 5%;
+    }
+    .logocont>h2{
+        margin-left: 14%;
+    }
     .menu>label{
         display: block;
         cursor: pointer;
@@ -909,7 +1184,431 @@ nav>h1{
         margin: 0;
         line-height: 70px;
     }
-    #toggle:checked + .clicklinks{
+    #toggle:checked + .clicklinks{ 
         display: block;
+    }
+    .heroelement{
+        margin-top: 15%;
+        position: relative;
+        top: 50px;
+    }
+    .herocontent{
+        width: 65%;
+        position: relative;
+        bottom: 170px;
+        left: 90px;
+    }
+    .herocontent>h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .herocontent>p{
+        font-size: 18px;
+        position: relative;
+        bottom: 8px;
+        line-height: 25px;
+    }
+    .herocontent>button{
+        width: 120px;
+        font-size: 15px;
+        height: 30px;
+        position: relative;
+        bottom: 25px;
+    }
+    .heroimg{
+        width: 80%;
+        height: 70%;
+        position: relative;
+        bottom: 180px;
+    }
+    .subheader{
+        margin: 0%;
+        position: relative;
+        bottom: 120px;
+    }
+    .section1{
+        background-position: contain;
+    }
+    .subsec1{
+        display: block;
+    }
+    .subsec1>div{
+        gap: 0;
+        width: 60%;
+    }
+    .search{
+        position: relative;
+        right: 40px;
+    }
+    .search>img{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .search>h4{
+        font-size: 20px;
+        padding-top: 12%;
+    }
+    .search>p{
+        font-size: 16px;
+    }
+    .search>p>br{
+        display: none;
+    }
+    .online{
+        position: relative;
+        bottom: 370px;
+        left: 165px;
+    }
+    .online>img{
+        position: relative;
+        top: 18px;
+        left: 20px;
+    }
+    .online>h4{
+        line-height: 30px;
+        padding-top: 19%;
+        font-size: 20px;
+        padding-bottom: 8%;
+    }
+    .online>p{
+        font-size: 16px;
+    }
+    .online>p>br{
+        display: none;
+    }
+    .consult{
+        position: relative;
+        bottom: 370px;
+        left: 165px;
+    }
+    .consult>img{
+        position: relative;
+        top: 18px;
+        left: 20px;
+    }
+    .consult>h4{
+        padding-top: 14%;
+        font-size: 20px;
+    }
+    .consult>p{
+        font-size: 16px;
+        padding-top: 0%;
+    }
+    .consult>p>br{
+        display: none;
+    }
+    .subsec12{
+        display: block;
+    }
+    .subsec12>div{
+        width: 60%;
+        gap: 0%;
+    }
+    .data{
+        position: relative;
+        bottom: 734px;
+        right: 40px; 
+    }
+    .data>img{
+        position: relative;
+        top: 18px;
+        left: 20px;
+    }
+    .data>h4{
+        padding-top: 17%;
+        font-size: 20px;
+    }
+    .data>p{
+        font-size: 16px;
+    }
+    .data>p>br{
+        display: none;
+    }
+    .gencare{
+        position: relative;
+        bottom: 720px;
+        right: 40px; 
+    }
+    .gencare>img{
+        position: relative;
+        top: 18px;
+        left: 20px;
+    }
+    .gencare>h4{
+        padding-top: 25%;
+        font-size: 20px;
+    }
+    .gencare>p{
+        font-size: 16px;
+    }
+    .gencare>p>br{
+        display: none;
+    }
+    .trak{
+        position: relative;
+        bottom: 1072px;
+        left: 165px; 
+    }
+    .trak>img{
+        position: relative;
+        top: 18px;
+        left: 20px;
+    }
+    .trak>h4{
+        padding-top: 13%;
+        font-size: 20px;
+    }
+    .trak>p{
+        font-size: 16px;
+    }
+    .trak>p>br{
+        display: none;
+    }
+    .pre1sec{
+        background-image: none;
+    }
+    .subsec12butt>button{
+        position: relative;
+        bottom: 1050px;
+        width: 100px;
+        font-size: 14px;
+        height: 40px;
+    }
+    .section2{
+        position: relative;
+        bottom: 1150px;
+        display: block;
+    }
+    .sec2imgcont{
+        width: 85%;
+    }
+    .sec2content{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+    .sec2content>h3{
+        font-size: 30px;
+    }
+    .sec2content>hr{
+        margin: 0 auto;
+    }
+    .sec2content>p{
+        font-size: 17px;
+        margin-top: 3%;
+    }
+    .subsec21{
+        position: relative;
+        bottom: 1180px;
+    }
+    .section3{
+        position: relative;
+        bottom: 1200px;
+        display: block;
+        text-align: center;
+    }
+    .section3>div{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .subsec31>h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .subsec31>hr{
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+    .subsec31>p{
+        font-size: 17px;
+    }
+    .subsec32{
+        position: relative;
+        bottom: 30px;
+    }
+    .presec4{
+        display: none;
+    }
+    .subsec041{
+        display: none;
+    } 
+    .subsec042{
+        position: relative;
+        bottom: 1300px;
+    }
+    .subsec042>h2{
+        font-size: 30px;
+    } 
+    .subsec05{
+        position: relative;
+        bottom: 1285px;
+        height: 85vh;
+    }
+    .imgcont>div{
+        width: 32%;
+    }
+    .txtcont>div{
+        width: 32%;
+    }
+    .disdec>h5{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .disdec>p{
+        font-size: 14px;
+    }
+    .herbmed>h5{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .herbmed>p{
+        font-size: 14px;
+    }
+    .natcare>h5{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .natcare>p{
+        font-size: 14px;
+        padding-top: 10%;
+    }
+    .natcare>button{
+        padding-top: 6%;
+    }
+    .subsec115{
+        position: relative;
+        bottom: 1300px;
+    }
+    .subsec115>button{
+        width: 100px;
+    }
+    .prelastsec{
+        position: relative;
+        bottom: 1280px;
+    }
+    .lastsec{
+        position: relative;
+        bottom: 1280px;
+    }
+    .lastsec016{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    } 
+    .lastsec036{
+        background-image: none;
+        background-image: url(./Ellipse9.png);
+        background-position-x: 15px;
+        background-position-y: 20px;
+    }
+    .lastsec036>h4{
+        background-size: contain;
+        font-size: 16px;
+        position: relative;
+        top: 22px;
+        left: 15px;
+    }
+    .lastsec036>h5{
+        position: relative;
+        left: 25px;
+        top: 20px;
+    }
+    .lastsec036>h5{
+        font-size: 18px;
+    }
+    .sublastsec06> :nth-child(2){
+        color: #FFFFFF;
+        font-size: 13px;
+        position: relative;
+        top: 15px;
+    }
+    .sublastsec06> :nth-child(3){
+        color: #FFFFFF;
+        font-size: 13px;
+        position: relative;
+        top: 22px;
+    }
+    .companycont>h6{
+        position: relative;
+        right: 29px;
+        font-size: 18px;
+        top: 10px;
+    }
+    .companycont>p{
+        font-size: 14px;
+        position: relative;
+        right: 17px;
+    }
+    .regioncont>h6{
+        font-size: 18px;
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+    .regioncont>p{
+        font-size: 14px;
+        position: relative;
+        right: 12px;
+    }
+    .helpcont>h6{
+        font-size: 18px;
+        position: relative;
+        right: 12px;
+        top: 10px;
+    }
+    .helpcont>p{
+        font-size: 13px;
+        position: relative;
+        right: 12px;
+    }
+}
+
+@media (max-width: 375px){
+    .heroimg{
+        position: relative;
+        top: -170px;
+    }
+    .subheader{
+        position: relative;
+        /* bottom: 420px; */
+    }
+    .pre1sec{
+        position: relative;
+        bottom: 80px;
+    }
+    .subsec12butt{
+        position: relative;
+        bottom: 10px;
+    }
+    .sec2imgcont{
+        position: relative;
+        bottom: 80px;
+    }
+    .sec2content{
+        position: relative;
+        top: -160px;
+    }
+    .subsec21{
+    }    
+    .subsec31{
+        position: relative;
+        top: -145px;
+    }
+    .subsec32{
+        position: relative;
+        top:-170px; 
+    }
+    .subsec042{
+    }
+    .subsec042>h2{
+        line-height: 32px;
+    }
+    .subsec115{
+    }
+    body{
+        height: 1200px;
     }
 }
