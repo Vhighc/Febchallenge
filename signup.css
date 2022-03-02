@@ -87,12 +87,10 @@ span{
     display: flex;
     margin-top: 7%;
     margin-bottom: 7%;
-    /* background-color: burlywood; */
     gap: 15px;
     justify-content: center;
 }
 .signuplinks>div{
-    /* background-color: brown; */
     display: flex; 
     border: 1px solid #E0DADA;
     height: 50px;
@@ -105,8 +103,8 @@ span{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    padding-left: 20%;
-    padding-top: 8%;
+    padding-left: 24%;
+    padding-top: 6%;
     /* line-height: 28px; */
 }
 .subsignuplinks01>p{ 
@@ -145,9 +143,9 @@ form>h1{
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 1%;
-    /* position: absolute; */
-    /* padding-left: 100px; */
-    /* padding-bottom: 10%; */
+    text-align: start;
+    position: relative;
+    left: 110px;
 }
 .inputbox{
     height: 58px;
@@ -157,7 +155,7 @@ form>h1{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: rgba(253, 253, 253, 0.5);
     margin-bottom: 2%;
-    /* position: relative; */
+    padding-left: 4%;
 }
 .buttcont{
     margin-top: 5%; 
@@ -174,3 +172,67 @@ form>h1{
     font-weight: 700;
 }
 
+                                            /* RESPONSIVE DESIGN */
+@media (max-width: 1024px){
+    .subbody{
+        margin: 8% 7% 8% 7%;
+    }
+    .sebody01>h1{
+        font-size: 50px;
+    }
+    .secbody01>p{
+        position: relative;
+        top: 30px;
+    }
+    .subsecbody001{
+        width: 100%;
+    }
+    .substart>h1{
+        font-size: 50px;
+    }
+    .signuplinks>div>p{
+        font-size: 15px;
+    }
+    .signuplinks>div{
+        width: 200px;
+    }
+    .subsignuplinks02>p{
+        background-position: -20px;
+    }
+    form>h1{
+        margin-top: 5%;
+    }
+    button{
+        position: relative;
+        top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .secbody01>h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .subsecbody001{
+        position: relative;
+        bottom: 40px;
+    }
+    .lineor>img{
+        width: 30%;
+    }
+    .inputbox{
+        width: 80%;
+        height: 40px;
+    }
+    .buttcont{
+        width: 80%;
+        height: 40px;
+        font-size: 20px;
+    }
+    form>h1{
+        font-size: 16px;
+        margin: 0;
+    }
+    .substart>p{
+        font-size: 17px;
+    }
+}

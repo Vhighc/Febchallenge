@@ -904,10 +904,9 @@ nav>h1{
 }
                                             /* RESPONSIVE DESIGN */
 
-@media (max-width: 1024px){
+@media  (max-width: 1024px){
     .subsec12butt>button{
         width: 150px;
-        /* line-height: 20px; */
         height: 40px;
     }
     .undertext>h3{
@@ -1122,7 +1121,7 @@ nav>h1{
     } 
     .subsec042{
         position: relative;
-        bottom: 1300px;
+        bottom: 300px;
     }
     .subsec042>h2{
         font-size: 30px;
@@ -1201,6 +1200,7 @@ nav>h1{
     .herocontent>h1{
         font-size: 30px;
         line-height: 35px;
+        position: relative;
     }
     .herocontent>p{
         font-size: 18px;
@@ -1216,10 +1216,10 @@ nav>h1{
         bottom: 25px;
     }
     .heroimg{
+        position: relative;
         width: 80%;
         height: 70%;
-        position: relative;
-        bottom: 180px;
+        top: -150px;
     }
     .subheader{
         margin: 0%;
@@ -1382,6 +1382,8 @@ nav>h1{
     }
     .sec2imgcont{
         width: 85%;
+        position: relative;
+        top: 20px;
     }
     .sec2content{
         width: 100%;
@@ -1413,6 +1415,10 @@ nav>h1{
         width: 100%;
         padding: 0%;
         margin: 0%;
+    }
+    .subsec31{
+        position: relative;
+        top: 10px;
     }
     .subsec31>h3{
         font-size: 30px;
@@ -1573,7 +1579,6 @@ nav>h1{
     }
     .subheader{
         position: relative;
-        /* bottom: 420px; */
     }
     .pre1sec{
         position: relative;
@@ -1585,13 +1590,11 @@ nav>h1{
     }
     .sec2imgcont{
         position: relative;
-        bottom: 80px;
+        top: -80px;
     }
     .sec2content{
         position: relative;
         top: -160px;
-    }
-    .subsec21{
     }    
     .subsec31{
         position: relative;
@@ -1605,8 +1608,6 @@ nav>h1{
     }
     .subsec042>h2{
         line-height: 32px;
-    }
-    .subsec115{
     }
     body{
         height: 1200px;
