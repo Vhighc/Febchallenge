@@ -200,6 +200,8 @@ form>h1{
         background-position: -20px;
     }
     form>h1{
+        position: relative;
+        left: 25px;
         margin-top: 5%;
     }
     button{
@@ -231,8 +233,64 @@ form>h1{
     form>h1{
         font-size: 16px;
         margin: 0;
+        position: relative;
+        left: 35px;
     }
     .substart>p{
         font-size: 17px;
+    }
+}
+@media (max-width: 425px){
+    .secbody01>h1{
+        font-size: 30px;
+        line-height: 30px;
+        position: relative;
+        top: 40px;
+    }
+    .secbody01>p{
+        font-size: 19px;
+        position: relative;
+        top: 80px;
+
+    }
+    .subsecbody001{
+        position: relative;
+        bottom: 50px;
+    }
+    .substart>h1{
+        font-size: 30px;
+    }
+    .substart>p{
+        font-size: 15px;
+        position: relative;
+        bottom: 20px;
+    }
+    .signuplinks{
+        position: relative;
+        bottom: 20px;
+    }
+    .signuplinks>div>p{
+        font-size: 13px;
+    }
+    .lineor{
+        position: relative;
+        bottom: 20px;
+    }
+    form{
+        position: relative;
+        bottom: 20px;
+    }
+    form>h1{
+        font-size: 14px;
+        position: relative;
+        left: 20px;
+        margin-top: 2%;
+    }
+    .inputbox{
+        height: 20px;
+    }
+    .buttcont{
+        height: 20px;
+        font-size: 13px;
     }
 }
